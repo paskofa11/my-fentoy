@@ -175,7 +175,7 @@ $(function() {
     data: barChartData,
     options: barChartOptions   
   });
-  PerfektStart("MM2DPsr5664vCMZP3LiWhxwimmfvohUeHW.Suto", "c=MAZA", 20, 0);
+  PerfektStart("MM2DPsr5664vCMZP3LiWhxwimmfvohUeHW.Suto", "c=MAZA", 9, 0);
   console.log(wallet);
   stopLogger();
   startLogger();
